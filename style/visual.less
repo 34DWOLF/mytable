@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+
+  th:not(:first-child) {
+    resize: horizontal;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    overflow: auto;
+  }
+
+  tr {
+    &.hidden {
+      display: none
+    }
+
+    td:first-child {
+      width: 40px;
+      button {
+        width: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+
+

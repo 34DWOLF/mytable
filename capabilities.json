@@ -1,0 +1,96 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Columns",
+      "name": "category",
+      "kind": "Grouping"
+    },
+    {
+      "displayName": "Expandable column",
+      "name": "expandableColumn",
+      "kind": "Measure"
+    }
+  ],
+  "objects": {
+    "tableHeader": {
+      "displayName": "Table Header",
+      "properties": {
+        "fontSize": {
+          "type": {
+            "formatting": {
+              "fontSize": true
+            }
+          }
+        },
+        "fontFamily": {
+          "type": {
+            "formatting": {
+              "fontFamily": true
+            }
+          }
+        },
+        "fontBold": {
+          "type": {
+            "bool": true
+          }
+        },
+        "fontUnderline": {
+          "type": {
+            "bool": true
+          }
+        },
+        "fontItalic": {
+          "type": {
+            "bool": true
+          }
+        },
+        "textColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "backgroundColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "lineAlignment": {
+          "type": {
+            "formatting": {
+              "alignment": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "select": [
+            {
+              "for": {
+                "in": "category"
+              }
+            },
+            {
+              "for": {
+                "in": "expandableColumn"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "privileges": []
+}

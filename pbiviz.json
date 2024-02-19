@@ -1,0 +1,26 @@
+{
+  "visual": {
+    "name": "customExpandTable",
+    "displayName": "Expandable Table",
+    "guid": "customTableE722CE783EB749458AAD5DB944D9B3FD",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "Custom PowerBI table that can hold any number of columns with an expand button for additional data that runs the length of the other columns",
+    "supportUrl": "Scott",
+    "gitHubUrl": "Scott"
+  },
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "Scott",
+    "email": "scott.judy1m@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}
